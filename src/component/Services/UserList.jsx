@@ -38,7 +38,7 @@ const UserList = () => {
 
     return () => {
       axiosSource.cancel();
-    };
+    }; 
   }, []);
 
   return (
